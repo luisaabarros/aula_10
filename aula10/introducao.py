@@ -1,5 +1,5 @@
 # Exceções
-
+nome = 3
 # ------------------------------------------------------------- NameError: Variável não definida
 print(nome)
 
@@ -21,10 +21,10 @@ print(f'Total: {total}')
 
 
 # ----------------------------------------------------------- ZeroDivisionError: Divisão por zero
-num1 = float(input('Inorme um número: '))
+num1 = float(input('Informe um número: '))
 num2 = float(input('Informe outro número: '))
 
-resultado = n1 / n2
+resultado = num1 / num2
 print(f'Resultado:  {resultado}')
 
 
